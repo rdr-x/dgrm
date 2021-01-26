@@ -1,0 +1,264 @@
+@media screen and (max-width: 3840px) {
+    .wrapper {overflow: auto;}
+body {
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 0, 140);
+    flex-wrap: wrap;
+    animation: cambioFondo 3s linear infinite;
+    margin: 0;
+}
+
+head {
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    animation: cambioFondo 3s linear infinite;
+    margin: 0;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+ h1 {
+    height: max-content;
+    font-size: 25vw;
+    font-weight: bolder;
+    color: aquamarine;
+    padding: 0px;
+    border: 0px solid black;
+    flex-wrap: wrap;
+    flex: auto;
+    animation: cambioFondo 3s linear infinite;
+}
+
+nav {
+    background-color: cyan;
+    padding: 0px;
+    border: 8px solid black;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 7vw;
+}
+
+section {
+    padding: 0PX;
+    margin: 0px;
+    float: left;
+    font-size: 13vw;
+    font-weight: bolder;
+    color: rgb(255, 238, 0);
+    animation: cambioFondo 3s linear infinite;
+    flex: auto;
+}
+
+article {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(173, 74, 74);
+    font-size: 15vw;
+    flex-wrap: wrap;
+}
+
+aside {
+    padding: 25px;
+    float: right;
+    background: chocolate;
+    font-size: 15vw;
+    font-weight: bolder;
+    color: rgb(21, 255, 0);
+    flex: auto;
+    animation: cambioFondo 3s linear infinite;
+}
+
+footer {
+    padding: 7vw;
+    float: bottom;
+    background: rgb(156, 210, 30);
+    font-size: 5vw;
+    text-align: center;
+    flex: auto;
+    animation: cambioFondo 3s linear infinite;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(231, 217, 16);
+}
+
+#imag2, #imag {
+    max-width: 50%;
+    max-height: 50%;
+    animation: imag 5s linear infinite;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fa {
+    padding: 5vw;
+    font-size: 1vw;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+@keyframes imag {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes cambioFondo {
+    0% {
+        background-color: rgb(236, 168, 19);
+    } 
+    25% {
+        background-color: rgb(243, 18, 67);
+    } 
+    50% {
+        background-color: plum;
+      }
+      100% {
+        background-color: darkturquoise;
+      }
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+.wrapper {
+    overflow: auto;
+}
+
+h1 {
+    font-size: 25vw;
+    font-weight: bolder;
+    color: aquamarine;
+    padding: 0px;
+    border: 0px solid black;
+    flex-wrap: wrap;
+    flex: auto;
+    animation: cambioFondo 5s linear infinite;
+}
+
+body {
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 0, 140);
+    flex-wrap: wrap;
+    animation: cambioFondo 5s linear infinite;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 25vw;
+}
+
+
+div {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#imag2, #imag {
+    max-width: 90%;
+    max-height: 90%;
+    animation: imag 5s linear infinite;
+}
+
+section {
+    padding: 0PX;
+    margin: 0px;
+    float: left;
+    font-size: 13vw;
+    font-weight: bolder;
+    text-size-adjust: auto;
+    color: rgb(255, 238, 0);
+    animation: cambioFondo 5s linear infinite;
+    flex: auto;
+}
+
+aside {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    background: chocolate;
+    font-size: 15vw;
+    font-weight: bolder;
+    color: rgb(21, 255, 0);
+    flex: auto;
+    animation: cambioFondo 5s linear infinite;
+}
+
+footer {
+    padding: 0px;
+    margin: 0px;
+    float: bottom;
+    background: rgb(156, 210, 30);
+    font-size: 5vw;
+    text-align: justify;
+    flex: auto;
+    animation: cambioFondo 5s linear infinite;
+    overflow: auto;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fa {
+    padding: 10vw;
+    font-size: 1vw;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw;
+    border-radius: 50%;
+  }
+  
+
+}
+
