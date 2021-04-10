@@ -48,7 +48,7 @@ app.use(express.static('static'));
 app.get('/', inicio);
 app.get('/static/style.css', fCss);
 app.get('/static/scripts.js', fJs);
-app.listen(8080, function(err){
+app.listen(PORT, function(err){
     if (err) console.log(err);
     console.log("Server on port " + PORT);
 });

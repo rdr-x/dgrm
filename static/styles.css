@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 3840px) {
     .wrapper {overflow: auto;}
 body {
@@ -100,7 +106,7 @@ a:hover {
     animation: imag 5s linear infinite;
 }
 
-#contenedor {
+.contenedor {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -115,16 +121,16 @@ a:hover {
     margin: 1vw;
     border-radius: 50%;
   }
-  
+
   .fa:hover {
       opacity: 0.7;
   }
-  
+
   .fa-facebook {
     background: #3B5998;
     color: white;
   }
-  
+
   .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -133,7 +139,7 @@ a:hover {
     background: #bb0000;
     color: white;
   }
-  
+
   .fa-instagram {
     background: #125688;
     color: white;
@@ -151,10 +157,10 @@ a:hover {
   @keyframes cambioFondo {
     0% {
         background-color: rgb(236, 168, 19);
-    } 
+    }
     25% {
         background-color: rgb(243, 18, 67);
-    } 
+    }
     50% {
         background-color: plum;
       }
@@ -243,7 +249,7 @@ footer {
     overflow: auto;
 }
 
-#contenedor {
+.contenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -258,7 +264,6 @@ footer {
     margin: 1vw;
     border-radius: 50%;
   }
-  
+
 
 }
-
